@@ -26,12 +26,14 @@ class Conteudo {
   final int categoriaId;
   final String titulo;
   final String resumo;
-  final String texto;
+  final List<String> paragrafos;
+  final String curiosidade;
   const Conteudo({
     required this.categoriaId,
     required this.titulo,
     required this.resumo,
-    required this.texto,
+    required this.paragrafos,
+    required this.curiosidade,
   });
 }
 
